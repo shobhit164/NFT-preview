@@ -15,12 +15,40 @@ body{
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
 }
+.wrapper .image{
+    position: relative;
+}
 
-.wrapper .image img{
-    height: 33vh;
+.wrapper .image .icon {
+    position:absolute;
+    top: 0;
+    opacity: 0;
+    background-color:hsl(178, 100%, 50%);
+    height: 36vh;
     width: 16.5rem;
     margin: 1.5rem;
     border-radius: 13px;
+ 
+}
+
+.wrapper .image img{
+    height: 36vh;
+    width: 16.5rem;
+    margin: 1.5rem;
+    border-radius: 13px;
+    
+}
+
+.image .icon img{
+    position: absolute;
+    top: 30%;
+    left: 32%;
+}
+
+ .image .icon:hover {
+    cursor: pointer;
+    opacity: 50%;
+   
 }
 
 .heading{
@@ -38,6 +66,10 @@ body{
     font-weight: 300;
     padding-left: 1.5rem;
     margin-top: 1rem;
+}
+.heading:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .info{
@@ -82,6 +114,12 @@ body{
     margin-left: 0.4rem;
     font-size: 0.9rem;
  }
+
+
+.creation span:last-of-type:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
 
 hr {
     border: none;
