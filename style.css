@@ -41,14 +41,13 @@ body{
 
 .image .icon img{
     position: absolute;
-    top: 42%;
-    left: 41%;
-    transform: translate(-50%, -50%);     /*   ?  */
+    top: 30%;
+    left: 32%;
 }
 
  .image .icon:hover {
     cursor: pointer;
-    opacity: 40%;
+    opacity: 50%;
    
 }
 
