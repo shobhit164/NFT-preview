@@ -26,7 +26,7 @@ body{
     border-radius: 13px;
 }
 
- .wrapper .image .icon {
+.wrapper .image .icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ body{
     width: 16.5rem;
     margin: 1.5rem;
     border-radius: 13px;
-    background-color:hsl(178, 100%, 50%); 
+    background-color: hsla(178, 100%, 50%, 0.5);
  } 
     
 .wrapper .image .icon{
@@ -44,8 +44,8 @@ body{
 } 
 
 
-.wrapper .image .icon:hover  {
-    opacity: 55%;
+.wrapper .image .icon:hover{
+    opacity: 100%;
     cursor: pointer;   
 } 
 
@@ -124,8 +124,7 @@ body{
 hr {
     border: none;
     border-top: 1px solid hsl(215, 32%, 27%);
-    width: 16.5rem;
-    margin: auto;
+    margin: 0 1.5rem;
 }
     
 @media screen and (min-width: 375px){
